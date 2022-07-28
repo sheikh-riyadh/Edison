@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boots your learing next levels</title>
-    <!-- Bootstrap css cdn file -->
+    <!-- BOOTSTRAP CSS CDN FILE -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-    <!-- Google fonts -->
+    <!-- GOOGLE FONTS -->
     <link rel="stylesheet"
         href="@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');">
+    <!--  STYLES SHEET -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -43,6 +45,9 @@
                             <li class="nav-item pe-4">
                                 <a class="nav-link" href="#">Success</a>
                             </li>
+                            <li class="nav-item pe-4 d-lg-none d-sm-block d-md-block">
+                                <a class="nav-link" href="#">Register</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="register d-none d-sm-block d-sm-none d-md-none d-lg-block">
@@ -50,9 +55,55 @@
                     </div>
                 </div>
             </nav>
+
+            <!-- SLIDER SECTION START -->
+            <section>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active overlay-dark">
+                            <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h1>Welcome to our Community</h1>
+                                <p>We are the best and biggest social network with 5 billion active users all around the
+                                    world.</p>
+                                <button class="btn btn-info text-white px-4 py-2"> get started</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item overlay-dark">
+                            <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h1>We Take Learning to New Heights</h1>
+                                <p>We believe everyone has the capacity to be creative. Turitor is a place where people
+                                    develop their own potential.</p>
+                                <button class="btn btn-info text-white px-4 py-2"> get started</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item overlay-dark">
+                            <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h1>Large educational programs</h1>
+                                <p>Today, more than 48,000 people have already studied at our university in
+                                    various
+                                    fields: programming, photography, marketing and management</p>
+                                <button class="btn btn-info text-white px-4 py-2"> get started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
         </section>
     </header>
-    <!-- Bootstrap Js cdn file -->
+    <!-- BOOTSTRAP CDN JS FILE -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
